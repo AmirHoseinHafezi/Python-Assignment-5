@@ -1,0 +1,6 @@
+sen1 = input('Enter your Phrase: ')
+splitter = input('Enter a Word: ')
+sticker = input('Enter Another Word: ')
+sen1 = sen1.split(splitter)
+sen1 = sticker.join(sen1)
+print('your new phrase :' , sen1)
